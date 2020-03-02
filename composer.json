@@ -1,0 +1,29 @@
+{
+    "name": "metadevstudio/laravel-comment",
+    "description": "Add comments feature to your laravel application",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MetaDevStudio\\LaravelComment\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "\\MetaDevStudio\\LaravelComment\\CommentServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Meta Dev Studio",
+            "email": "metadevs@metadevstudio.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
